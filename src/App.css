@@ -17,7 +17,6 @@ body {
  display: flex;
  align-items: center;
  justify-content: center;
-
 }
 
 .info--div {
@@ -59,14 +58,11 @@ body {
   gap: 12px;
 }
 
-.info--button_div > button {
+.info--button_div > button, .info--button_div > button:hover  {
   width: 100px;
   border-radius: 5px;
   border:none;
   padding: 5px;
-}
-
-.info--button_div > button:hover {
   cursor: pointer;
 }
 
